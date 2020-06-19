@@ -1,0 +1,8 @@
+NONE='\033[00m'
+RED='\033[01;31m'
+UNDERLINE='\033[4m'
+
+echo "${RED} ${UNDERLINE}СТАТИСТИКА COVID-19${NONE}"
+python3 /home/egor/Документы/Python/covid-19.py
+
+tput sgr0
